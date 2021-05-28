@@ -1,2 +1,9 @@
 # PingPongGame
 JS,CSS,HTML Ping Pong Game
+
+
+Beytullah Esin
+G1810.033001
+
+MUHAMMED YUSUF AŞCITUNÇ
+G1910.033056
