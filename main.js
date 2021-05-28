@@ -149,3 +149,20 @@ function goal(pos) {
 
 
 }
+
+var second = 0, minute = 0, hour = 0;
+function timer()
+{
+  if(second < 59) second = second + 1;
+  else
+  {
+    second = 0; 
+    if(minute < 59) minute = minute + 1;
+    else{minute = 0; hour = hour + 1;}
+  }
+  $("#time").html(hour + " : " + minute + " : " + second);
+}
+$(document).ready(function(){
+  $("#time").html("0 : 0 : 0");
+  setInterval(timer, 1000);
+});
